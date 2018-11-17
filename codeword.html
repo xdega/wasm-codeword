@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+    <h1>Codeword 1.0, Minimal WebASM Example</h1>
+    <p>Open Script console to see output.</p>
+  <script>
+    var Module = {
+      onRuntimeInitialized: function() {
+        console.log('getCodeword(str): ' + Module.getCodeword('Dog, Cat, Mouse'));
+      }
+    };
+  </script>
+  <script src="codeword.js"></script>
+</html>
