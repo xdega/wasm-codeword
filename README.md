@@ -10,5 +10,5 @@ This example is minimal, and ought to be a good starting point to understand how
 ## Usage
 1. Clone repository
 2. Run `emrun --browser chrome codeword.html` 
-3. In the console you will see a string output, with the vowels replaces by `_`
+3. In the console you will see a string output, with the vowels replaced by `_`
 4. You can call `Module.getCodeword(str)` where `str` is your own string to be manipulated
